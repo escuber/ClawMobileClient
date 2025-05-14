@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+    <VerticalStackLayout Padding="10" Spacing="10">
+        <Label Text="Direction" FontAttributes="Bold"/>
+        <BoxView x:Name="directionIndicator" WidthRequest="20" HeightRequest="20" CornerRadius="10" BackgroundColor="Gray"/>
+        <Label Text="PWM vs RPM (Normalized)"/>
+        <GraphicsView x:Name="graphView" HeightRequest="200"/>
+    </VerticalStackLayout>
+</ContentPage>
+
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+
+            --><!--<Label Text="Telemetry" FontSize="28" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+            <Label Text="PWM:"/>
+            <Label x:Name="PwmLabel" FontSize="20"/>
+
+            <Label Text="RPM:"/>
+            <Label x:Name="RpmLabel" FontSize="20"/>
+
+            <Label Text="Pitch:"/>
+            <Label x:Name="PitchLabel" FontSize="20"/>
+
+            <Label Text="Roll:"/>
+            <Label x:Name="RollLabel" FontSize="20"/>
+
+            <Label Text="Yaw:"/>
+            <Label x:Name="YawLabel" FontSize="20"/>
+
+            <Label Text="AccelX:"/>
+            <Label x:Name="AccelXLabel" FontSize="20"/>
+
+            <Label Text="AccelY:"/>
+            <Label x:Name="AccelYLabel" FontSize="20"/>
+
+            <Label Text="AccelZ:"/>
+            <Label x:Name="AccelZLabel" FontSize="20"/>-->
+            
+            
+        
+            <!--<Label Text="Direction" FontAttributes="Bold"/>
+            <BoxView x:Name="directionIndicator" WidthRequest="20" HeightRequest="20" CornerRadius="10" BackgroundColor="Gray"/>
+            
+            <Label Text="PWM vs RPM (Normalized)"/>
+            <GraphicsView x:Name="graphView" HeightRequest="200"/>--><!--
+        
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>-->

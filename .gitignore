@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ClawMobileClient/FileContentIndex
+/MauiApp1/bin/Debug/net8.0-android
+*.dll
+/MauiApp1/obj
+/oldMauiApp1/MauiApp1
+*.7z
+*.zip
+*.pfx
